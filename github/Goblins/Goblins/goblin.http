@@ -1,0 +1,21 @@
+GET  https://localhost:7052/
+
+###
+GET https://localhost:7052/create
+Content-Type: application/json
+{
+  "number"     : "5",
+  "name"       : "¬опер",
+  "height"     : "167",
+  "age"        : "266",
+  "weapon"     : "палка вечности"
+}
+###
+PUT https://localhost:7052/1
+Content-Type: application/json
+{
+  "name"       : "1",
+  "height"     : "167",
+  "age"        : "266",
+  "weapon"     : "палка вечности"
+}
